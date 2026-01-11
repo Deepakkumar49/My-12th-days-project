@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid; 
+    place-content: center;
+    background : url(nature.png)no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+
+#container{
+    background-color: rgba(0,0 , 0, 0.2);
+    border:2px solid rgba(4, 14, 4, 0.795);
+    height:600px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+
+h2{
+    text-align: center;
+    color:rgb(100, 119, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding: 35px;
+}
+
+.input_field{
+    padding-bottom: 25px;
+    border-radius: 5px;
+    background-color: rgba(16, 36, 19, 0.603);
+    width:385px;
+    height: 40px;
+    color: rgba(108, 231, 155, 0.753);
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;  
+}
+#form_box{
+    text-align: center;
+}
+
+.link{
+    color: rgba(94, 189, 130, 0.753);
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+#login_button{
+    width: 85px;
+    height:40px;
+    background-color:rgba(79, 158, 79, 0.815) ;
+    color:white;
+    border-radius: 5px;
+}
